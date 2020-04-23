@@ -1,6 +1,5 @@
 type BlockHash = Vec<u8>;
 
-// Credit: https://stackoverflow.com/a/44378174/2773837
 use std::time::{ SystemTime, UNIX_EPOCH };
 
 pub fn now () -> u128 {
